@@ -803,16 +803,16 @@ body.mobile-nav-active #mobile-nav-toggle {
 #services .title {
   margin-left: 60px;
   font-weight: 700;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
   font-size: 18px;
 }
 
 #services .title a {
-  color: #111;
+  color: #69bf4a;
 }
 
 #services .box:hover .title a {
-  color: #69bf4a;
+  color: #111;
 }
 
 #services .description {
