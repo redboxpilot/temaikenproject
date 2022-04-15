@@ -194,7 +194,7 @@ h6 {
 
 #intro .carousel-item::before {
   content: "";
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.6);
   position: absolute;
   height: 100%;
   width: 100%;
@@ -330,6 +330,7 @@ h6 {
   margin: 0;
   padding: 0;
   list-style: none;
+  text-align: center;
 }
 
 .nav-menu ul {
@@ -775,6 +776,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 0 20px 20px 20px;
 }
 
+#about ul {
+  padding-right: 20px;
+}
+
 #about .about-cols {
   margin-top: 50px;
 }
@@ -1083,6 +1088,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #protected .container2 {
   justify-content: right;
+  padding: 0px;
 }
 
 #protected i {
@@ -1698,13 +1704,21 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #footer .copyright {
   text-align: center;
-  padding-top: 30px;
+  padding-top: 10px;
 }
 
 #footer .credits {
   text-align: center;
   font-size: 13px;
   color: #ddd;
+}
+
+#footer .row {
+  justify-content: center;
+}
+
+#footer img {
+  width: 20%;
 }
 
 /*--------------------------------------------------------------
@@ -1760,6 +1774,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
   #header #logo img {
     max-height: 40px;
+    width: auto;
   }
 
   #intro h2 {
@@ -1772,5 +1787,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 
   #mobile-nav-toggle {
     display: inline;
+  }
+
+  #footer img {
+    width: 50%;
   }
 }
