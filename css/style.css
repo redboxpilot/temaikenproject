@@ -96,6 +96,10 @@ h6 {
   animation: animate-preloader 1s linear infinite;
 }
 
+.video-container {
+  justify-content: center;
+}
+
 @-webkit-keyframes animate-preloader {
   0% {
     -webkit-transform: rotate(0deg);
@@ -647,11 +651,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   );
 }
 
-#featured-services iframe {
-  margin: auto 10%;
-  padding-bottom: 40px;
-}
-
 #featured-services i {
   color: #308954;
   font-size: 48px;
@@ -776,6 +775,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 0 20px 20px 20px;
 }
 
+#about .about-cols {
+  margin-top: 50px;
+}
+
 /* Services Section
 --------------------------------*/
 
@@ -820,6 +823,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-left: 60px;
   line-height: 24px;
   margin-bottom: 0;
+}
+
+#services .row {
+  margin-top: 50px;
 }
 
 /* Call To Action Section
@@ -920,17 +927,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   z-index: 10;
 }
 
-#facts iframe {
-  margin: auto 25%;
-  padding-bottom: 40px;
-}
-
 .counters span {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   font-size: 48px;
   display: block;
   color: #308954;
+  margin-top: 40px;
 }
 
 #greener {
@@ -948,6 +951,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 #facts .facts-img {
   text-align: center;
   padding-top: 30px;
+}
+
+#facts .row {
+  justify-content: center;
+  text-align: center;
 }
 
 /* Education Section
@@ -974,11 +982,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 #education .container {
   position: relative;
   z-index: 10;
-}
-
-#education iframe {
-  margin: auto 25%;
-  padding-bottom: 40px;
 }
 
 .counters span {
@@ -1008,6 +1011,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #education .icon {
   float: left;
+  margin-left: 20px;
 }
 
 #education .icon i {
@@ -1018,10 +1022,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #education .title {
-  margin-left: 60px;
+  margin-left: 70px;
   margin-right: 30px;
   font-weight: 700;
   font-size: 18px;
+  text-align: left;
 }
 
 #education .title a {
@@ -1031,6 +1036,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #education .row {
   margin-top: 40px;
   justify-content: center;
+  text-align: center;
 }
 
 /* Protected Area Section
@@ -1045,13 +1051,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   justify-content: center;
 }
 
-#protected .video-container {
-  width: auto;
-  margin: auto 25%;
-}
-
 #protected .row {
   justify-content: space-around;
+  margin: 30px;
 }
 
 #protected .cards {
