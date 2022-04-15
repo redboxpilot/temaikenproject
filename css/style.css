@@ -50,7 +50,7 @@ h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #308954;
+  background: #69bf4a;
   color: #fff;
   width: 44px;
   height: 44px;
@@ -311,12 +311,12 @@ h6 {
   transition: 0.5s;
   margin: 10px;
   color: #fff;
-  background: #308954;
+  background: #69bf4a;
 }
 
 #intro .btn-get-started:hover {
   background: #fff;
-  color: #308954;
+  color: #69bf4a;
 }
 
 /*--------------------------------------------------------------
@@ -748,7 +748,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .about-col:hover i {
-  color: #308954;
+  color: #69bf4a;
 }
 
 #about .about-col h2 {
@@ -782,6 +782,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #about .about-cols {
   margin-top: 50px;
+}
+
+#about span {
+  font-weight: bold;
 }
 
 /* Services Section
@@ -832,6 +836,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #services .row {
   margin-top: 50px;
+  justify-content: center;
+  margin-left: 20px;
 }
 
 /* Call To Action Section
@@ -1055,18 +1061,24 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #protected .container {
   justify-content: center;
+  padding: 0;
 }
 
 #protected .row {
+  text-align: center;
   justify-content: space-around;
   margin: 30px;
+}
+
+#protected p {
+  text-align: left;
 }
 
 #protected .cards {
   margin-top: 40px;
   background-color: #fff;
   border-radius: 15px;
-  padding: 0px 25px 25px 25px;
+  padding: -0px 25px 25px 25px;
 }
 
 #protected .cards h2 {
@@ -1087,13 +1099,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-weight: 700;
 }
 
-#protected .container2 {
-  justify-content: right;
-  padding: 0px;
-}
-
 #protected .icon {
-  margin: -100px 0px 0px 75px;
+  margin-top: -100px;
   color: #fff;
   display: inline-flex;
   background-color: #69bf4a;
