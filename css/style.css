@@ -1023,6 +1023,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   float: left;
   margin-left: 20px;
   margin-right: 20px;
+  margin-top: 20px;
 }
 
 #education .icon i {
@@ -1033,8 +1034,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #education .title {
-  margin-left: 80px;
-  margin-right: 30px;
+  margin: 20px 30px 5px 80px;
   font-weight: 700;
   font-size: 18px;
   text-align: left;
@@ -1042,6 +1042,15 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #education .title a {
   color: #555;
+}
+
+#education .description {
+  font-size: 14px;
+  margin-left: 83px;
+  margin-right: 20px;
+  line-height: 24px;
+  margin-bottom: 0;
+  text-align: left;
 }
 
 #education .row {
