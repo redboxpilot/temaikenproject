@@ -817,9 +817,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 18px;
-}
-
-#services .title a {
   color: #69bf4a;
 }
 
@@ -837,6 +834,29 @@ body.mobile-nav-active #mobile-nav-toggle {
 #services .row {
   margin-top: 50px;
   justify-content: center;
+}
+
+#services .btn-get-started {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 32px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px;
+  color: #fff;
+  background: #69bf4a;
+}
+
+#services .btn-get-started:hover {
+  background: #fff;
+  color: #69bf4a;
+}
+
+#services .row-button {
+  text-align: center;
 }
 
 /* Call To Action Section
